@@ -1,0 +1,27 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Clean Bog App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fd1134/CleanBlog.git"
+  },
+  "author": "fatih demir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fd1134/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/fd1134/CleanBlog#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3"
+  }
+}
