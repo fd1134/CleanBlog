@@ -1,10 +1,17 @@
 const express=require("express");
+const ejs=require("ejs");
 
 const app=express();
 
+//Middlware
+app.use(express.static("public"));
+
+// Template Engine
+app.set('view engine', 'ejs')
+
 app.get("/",(req,res)=>{
-    const blog = { id: 1, title: "Blog title", description: "Blog description" };
-    res.send(blog);
+    
+    res.render("index")
 
 });
 
